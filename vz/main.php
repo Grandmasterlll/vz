@@ -404,11 +404,21 @@ info@example.com
     }
     public function OUR_ADVANTAGES(){
         $con = print_r('
-        <div class="p-3 mb-2 bg-white text-dark">
-                        <h3 class="text-center">НАШИ ПРЕИМУЩЕСТВА</h3><br>
-                         <h3 class="text-center">НАШИ ПРЕИМУЩЕСТВА</h3><br>
-                          <h3 class="text-center">НАШИ ПРЕИМУЩЕСТВА</h3><br>
-             </div>
+        <div class="container-md">
+         <!-- 
+         <div class="p-3 mb-2 bg-white text-dark" style="width: 100%;  height: 40%"></div>
+         -->
+                       
+                            <ul id="flexiselDemo5" >
+                                <li><img src="images/1.jpg" /></li>
+                                <li><img src="images/2.jpg" /></li>
+                                <li><img src="images/3.jpg" /></li>
+                                <li><img src="images/4.jpg" /></li>                                                 
+                            </ul>    
+                       
+                              
+            
+            </div>
         ');
         return $con;
     }

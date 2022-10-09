@@ -63,6 +63,8 @@ $main->OUR_PARTNERS();
     <?php
     $main->OUR_ADVANTAGES();
     ?>
+</div><div class="container-md"><br>
+    <br><br><br><br><br>
 </div>
 <br>
 <div class="container-md"><br>
@@ -133,6 +135,15 @@ $main->jss();
         });
 
         $("#flexiselDemo3").flexisel({
+            visibleItems: 3,
+            itemsToScroll: 1,
+            autoPlay: {
+                enable: true,
+                interval: 5000,
+                pauseOnHover: true
+            }
+        });
+        $("#flexiselDemo5").flexisel({
             visibleItems: 3,
             itemsToScroll: 1,
             autoPlay: {
