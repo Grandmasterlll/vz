@@ -45,34 +45,7 @@ class main
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
+ 
   </section>
   <!-- Section: Social media -->
 
@@ -364,7 +337,7 @@ info@example.com
         ');
         return $con;
     }
-    public function element_H3_OUR_PARTNERS(){
+    public function element_H3_OUR_PARTNERS(){ /// НАШИ ПАРТНЕРЫ
         $con = print_r('
             <div class="p-3 mb-2 bg-white text-dark">
                         <h3 class="text-center ">НАШИ ПАРТНЕРЫ</h3>
@@ -373,7 +346,7 @@ info@example.com
         return $con;
     }
 
-    public function OUR_PARTNERS(){
+    public function OUR_PARTNERS(){  /// НАШИ ПАРТНЕРЫ
         $con = print_r('
             <div class="container-md">
          <!-- 
@@ -394,7 +367,7 @@ info@example.com
         ');
         return $con;
     }
-    public function element_H3_OUR_ADVANTAGES(){
+    public function element_H3_OUR_ADVANTAGES(){ ///НАШИ ПРЕИМУЩЕСТВА
         $con = print_r('
             <div class="p-3 mb-2 bg-white text-dark">
                         <h3 class="text-center">НАШИ ПРЕИМУЩЕСТВА</h3>
@@ -402,7 +375,7 @@ info@example.com
         ');
         return $con;
     }
-    public function OUR_ADVANTAGES(){
+    public function OUR_ADVANTAGES(){  /// НАШИ ПРЕИМУЩЕСТВА
         $con = print_r('
         <div class="container-md">
          <!-- 
@@ -422,7 +395,7 @@ info@example.com
         ');
         return $con;
     }
-    public function element_H3_n4(){
+    public function element_H3_n4(){  /// МЫ В СОЦСЕТЯХ
         $con = print_r('
             <div class="p-3 mb-2 bg-white text-dark">
                         <h3 class="text-center">МЫ В СОЦСЕТЯХ</h3>
@@ -430,12 +403,18 @@ info@example.com
         ');
         return $con;
     }
-    public function p3(){
+    public function p3(){  /// МЫ В СОЦСЕТЯХ
         $con = print_r('
          <div class="p-3 mb-2 bg-white text-dark">
-                        <h3 class="text-center">МЫ В СОЦСЕТЯХ</h3> <br>
-                         <h3 class="text-center">МЫ В СОЦСЕТЯХ</h3><br>
-                          <h3 class="text-center">МЫ В СОЦСЕТЯХ</h3><br>
+         <center>
+                       <a href="#" style="padding: 10px; color: red"> <i class="fab fa-google-plus-square fa-4x"></i> </a>
+                       <a href="#" style="padding: 10px; color: cornflowerblue"> <i class="fab fa-facebook fa-4x"></i> </a>
+                       <a href="#" style="padding: 10px ; "> <i class="fab fa-vk fa-4x"></i> </a>
+                       <a href="#" style="padding: 10px ; color: deepskyblue"> <i class="fab fa-twitter fa-4x"></i> </a>
+                       <a href="#" style="padding: 10px ; color: plum"> <i class="fab fa-instagram fa-4x"></i> </a>
+                        </center>
+    
+                       
             </div>
         ');
         return $con;
