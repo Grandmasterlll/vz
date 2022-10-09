@@ -25,7 +25,7 @@ img.background {
 }
 
 body {
-    background: url(../img/bg.jpg);
+    background: url(../img/bg1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -131,4 +131,42 @@ kr9kva
 
 .nbs-flexisel-nav-right.disabled {
     opacity: 0.4;
+}
+
+
+
+/*
+google
+facebook
+twitter
+instagram
+ */
+
+.google{
+    padding: 10px;
+    color: #ff7171;
+}
+.google:hover {
+    color: #980000; /* Цвет ссылки при наведении на нее курсора мыши */
+}
+.facebook{
+    padding: 10px;
+    color: cornflowerblue;
+}
+.facebook:hover {
+    color: #003ea9; /* Цвет ссылки при наведении на нее курсора мыши */
+}
+.twitter{
+    padding: 10px;
+    color: deepskyblue;
+}
+.twitter:hover {
+    color: #009dc2; /* Цвет ссылки при наведении на нее курсора мыши */
+}
+.instagram{
+    padding: 10px;
+    color: plum;
+}
+.instagram:hover {
+    color: #9f009f; /* Цвет ссылки при наведении на нее курсора мыши */
 }

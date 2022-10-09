@@ -130,7 +130,7 @@ info@example.com
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
+    © 2022 Copyright:
     <a class="text-reset fw-bold" href="#">kr9kva&4iper</a>
   </div>
   <!-- Copyright -->
@@ -407,11 +407,11 @@ info@example.com
         $con = print_r('
          <div class="p-3 mb-2 bg-white text-dark">
          <center>
-                       <a href="#" style="padding: 10px; color: red"> <i class="fab fa-google-plus-square fa-4x"></i> </a>
-                       <a href="#" style="padding: 10px; color: cornflowerblue"> <i class="fab fa-facebook fa-4x"></i> </a>
+                       <a href="#" class="google"> <i class="fab fa-google-plus-square fa-4x"></i> </a>
+                       <a href="#" class="facebook"> <i class="fab fa-facebook fa-4x"></i> </a>
                        <a href="#" style="padding: 10px ; "> <i class="fab fa-vk fa-4x"></i> </a>
-                       <a href="#" style="padding: 10px ; color: deepskyblue"> <i class="fab fa-twitter fa-4x"></i> </a>
-                       <a href="#" style="padding: 10px ; color: plum"> <i class="fab fa-instagram fa-4x"></i> </a>
+                       <a href="#" class="twitter"> <i class="fab fa-twitter fa-4x"></i> </a>
+                       <a href="#" class="instagram"> <i class="fab fa-instagram fa-4x"></i> </a>
                         </center>
     
                        

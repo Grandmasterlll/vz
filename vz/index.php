@@ -59,11 +59,11 @@ $main->OUR_PARTNERS();
 <div class="container-md"><br>
     <?php
     $main->element_H3_OUR_ADVANTAGES();
-    ?><br>
+    ?><br></div>
     <?php
     $main->OUR_ADVANTAGES();
     ?>
-</div><div class="container-md"><br>
+<div class="container-md"><br>
     <br><br><br><br><br>
 </div>
 <br>
