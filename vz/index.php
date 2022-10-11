@@ -83,7 +83,7 @@ $main->OUR_PARTNERS();
 </div>
 
 <?php
-$main->footer();
+$main->footer(index(),PRODUCT(),CONTACTS(),ABOUT_US());
 ?>
 <!--
 <div class="container-md">

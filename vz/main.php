@@ -39,7 +39,7 @@ class main
         ');
         return ($connect);
     }
-    public function footer(){
+    public function footer($index, $product, $contacts, $about_us){
         $con = print_r('
          <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
@@ -76,16 +76,16 @@ class main
 навигация
           </h6>
           <p>
-            <a href="#!" class="text-reset">ГЛАВНАЯ</a>
+            <a href="'.$index.'" class="text-reset">ГЛАВНАЯ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">ПРОДУКТ</a>
+            <a href="'.$product.'" class="text-reset">ПРОДУКТ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">КОНТАКТЫ</a>
+            <a href="'.$contacts.'" class="text-reset">КОНТАКТЫ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">О НАС</a>
+            <a href="'.$about_us.'" class="text-reset">О НАС</a>
           </p>
         </div>
         <!-- Grid column -->
