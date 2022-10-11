@@ -3,8 +3,14 @@
 /*
  *  главная страница  []
  *
+HOME
+PRODUCT
+CONTACTS
+ABOUT US
  */
+$title="HOME";
 require_once('main.php');
+require_once('links.php');
 $main = new main();
 
 //$index = new index();
@@ -12,7 +18,7 @@ $main = new main();
 <!DOCTYPE html>
 <html lang="en">
 <?php
-$main->head();
+$main->head($title);
 ?>
 
 <body >
