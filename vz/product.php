@@ -38,7 +38,18 @@ $main->head($title);
 -->
 
 
+<div class="container-md">
 
+    <?php
+    $main->element_H3();
+    ?>
+
+    <br>
+    <?php
+    $main->card();
+    ?>
+</div>
+<br>
 
 
 <?php
