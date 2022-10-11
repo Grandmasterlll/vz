@@ -170,3 +170,21 @@ instagram
 .instagram:hover {
     color: #9f009f; /* Цвет ссылки при наведении на нее курсора мыши */
 }
+
+
+/*
+@media screen, projection {
+    /* CSS-стили
+.map{
+    width:150% ;
+    height:100%;
+
+}
+}
+ */
+.map{
+    width:  1800px ;
+    height : 900px;
+
+}
+

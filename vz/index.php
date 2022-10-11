@@ -26,7 +26,7 @@ $main->head($title);
 
 <div class="container-md">
 <?php
-$main->header();
+$main->header(index(),PRODUCT(),CONTACTS(),ABOUT_US(),indexH1());
 ?>
 </div>
 <br>

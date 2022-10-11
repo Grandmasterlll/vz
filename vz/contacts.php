@@ -28,8 +28,17 @@ $main->head($title);
 
 <div class="container-md">
     <?php
-    $main->header();
+    $contacts->header(index(),PRODUCT(),CONTACTS(),ABOUT_US());
+    //CONTACTS / КОНТАКТЫ header(index(),PRODUCT(),CONTACTS(),ABOUT_US());
     ?>
+</div>
+<br>
+<div class="container-md">
+    <div class="p-3 mb-2 bg-white text-dark" style="height: 500px; ">
+        <?php
+        $contacts->map();
+        ?>
+    </div>
 </div>
 <br>
 <div class="container-md">
@@ -56,6 +65,26 @@ $main->footer();
 <?php
 $main->jss();
 ?>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+
+</script>
+<script>
+    var map;
+    var marker;
+    function initMap ()
+    {
+        map = new ymaps.Map("yandexmap", {
+            center: [56.039017, 92.894853],
+            zoom: 15
+        });
+        marker = new ymaps.Placemark([56.039017, 92.894853], {
+            hintContent: 'Расположение',
+            balloonContent: 'Это наша организация'
+        });
+        map.geoObjects.add(marker);
+    }
+    ymaps.ready(initMap);
+</script>
 
 
 </body>

@@ -58,11 +58,13 @@ class main
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fas fa-gem me-3"></i>Antynea
 </h6>
           <p>
-Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+Прошло уже не одно десятилетие, мы проводили диверсификацию и доросли до крупной швейной фабрики
+с численностью более 300 человек,
+собственными производственными площадями в 5000 кв.метров,
+экспортируем свою продукцию в 9 стран мира.
           </p>
         </div>
         <!-- Grid column -->
@@ -71,55 +73,39 @@ Here you can use rows and columns to organize your footer content. Lorem ipsum
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-Products
+навигация
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">ГЛАВНАЯ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">ПРОДУКТ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">КОНТАКТЫ</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">О НАС</a>
           </p>
         </div>
         <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-Useful links
-</h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+        
 
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <h6 class="text-uppercase fw-bold mb-4">КОНТАКТЫ</h6>
+          <p><i class="fas fa-home me-3"></i> г. Минск, ул. Промышленная, д.21, корпус 1, помещение 1</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-info@example.com
+info@antynea.com
 </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i> +375 29691 32 23 – А1
+</p>
+       <p><i class="fas fa-phone me-3"></i> +375 44580 95 30 – А1
+</p>
+          
         </div>
         <!-- Grid column -->
       </div>
@@ -140,7 +126,7 @@ info@example.com
         return $con;
     }
     //<div class="container-md">100% wide until medium breakpoint</div>
-    public function header(){
+    public function header($index, $product, $contacts, $about_us,$conntent){
         $con = print_r('
         <header>
   <!-- Navbar -->
@@ -160,16 +146,16 @@ info@example.com
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">HOME</a>
+            <a class="nav-link" aria-current="page" href="'.$index.'">ГЛАВНАЯ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PRODUCT</a>
+            <a class="nav-link" href="'.$product.'">ПРОДУКТ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTS</a>
+            <a class="nav-link" href="'.$contacts.'">КОНТАКТЫ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link" href="'.$about_us.'">О НАС </a>
           </li>
         </ul>
       </div>
@@ -179,11 +165,12 @@ info@example.com
 
   <!-- Jumbotron -->
   <div class="p-5 text-center bg-light">
-    <h1 class="mb-3">Antynea</h1>
-    <h4 class="mb-3">ООО АНТИНЕЯ В МИНСКЕ ОФИЦИАЛЬНЫЙ САЙТ</h4>
-    <a class="btn btn-primary" href="" role="button">Call to action</a>
+    '.$conntent.'
   </div>  
   <!-- Jumbotron 
+  <h1 class="mb-3">Antynea</h1>
+    <h4 class="mb-3">ООО АНТИНЕЯ В МИНСКЕ ОФИЦИАЛЬНЫЙ САЙТ</h4>
+    <a class="btn btn-primary" href="" role="button">Call to action</a>
   <div class="p-5 text-center bg-light">
     <h1 class="mb-3">Antynea</h1>
     <h4 class="mb-3">ООО АНТИНЕЯ В МИНСКЕ ОФИЦИАЛЬНЫЙ САЙТ</h4>
