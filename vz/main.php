@@ -341,10 +341,12 @@ info@antynea.com
          -->
                        
                             <ul id="flexiselDemo3" >
-                                <li><img src="images/1.jpg" /></li>
-                                <li><img src="images/2.jpg" /></li>
-                                <li><img src="images/3.jpg" /></li>
-                                <li><img src="images/4.jpg" /></li>                                                 
+                                <li><img src="img/1avz.jfif" /></li>
+                                <li><img src="img/2avz.jfif" /></li>
+                                <li><img src="img/3avz.jfif" /></li>
+                                <li><img src="img/4avz.jfif" /></li>     
+                                <li><img src="img/5avz.jfif" /></li>     
+                                                                         
                             </ul>    
                        
                               
@@ -370,10 +372,12 @@ info@antynea.com
          -->
                        
                             <ul id="flexiselDemo5" >
-                                <li><img src="images/1.jpg" /></li>
-                                <li><img src="images/2.jpg" /></li>
-                                <li><img src="images/3.jpg" /></li>
-                                <li><img src="images/4.jpg" /></li>                                                 
+                                <li><img src="img/1dvz.jfif" /></li>
+                                <li><img src="img/2dvz.jfif" /></li>
+                                <li><img src="img/3dvz.jfif" /></li>
+                                <li><img src="img/4dvz.jfif" /></li>  
+                                <li><img src="img/5dvz.jfif" /></li>  
+                                <li><img src="img/6dvz.jfif" /></li>                                                
                             </ul>    
                        
                               
